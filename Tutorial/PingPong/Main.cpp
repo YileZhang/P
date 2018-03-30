@@ -9,7 +9,7 @@ extern void EnvWait();
 #include <string>
 
 
-/* Stubs */
+
 std::wstring ConvertToUnicode(const char* str)
 {
 	std::string temp(str == NULL ? "" : str);
